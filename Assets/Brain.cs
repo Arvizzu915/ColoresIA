@@ -7,10 +7,10 @@ using UnityEngine;
 
 public class Brain : MonoBehaviour
 {
-    [SerializeField] private Color[] colors;
-    private List<Color> elegibles = new();
-    private List<Color> selected = new();
-    private List<Color> currentSelected = new();
+    [SerializeField] private ColorBall[] colors;
+    private List<ColorBall> elegibles = new();
+    private List<ColorBall> selected = new();
+    private List<ColorBall> currentSelected = new();
 
     private int correct = 0, tries = 0;
 

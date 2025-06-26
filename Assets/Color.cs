@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Color 
+public class ColorBall : MonoBehaviour
 {
     public int color;
     public int place;
